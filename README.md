@@ -19,7 +19,7 @@ $ gcloud auth login
 $ open https://cloud.google.com/appengine/docs/go/download
 $ export PATH="$PATH:$HOME/go_appengine"
 $ git clone git@github.com:s-aska/secure-proxy.git
-$ cd secure-proxy/src
+$ cd secure-proxy
 ```
 
 ## direnv
