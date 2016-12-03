@@ -39,5 +39,5 @@ $ goapp serve
 ## Deployment
 
 ```sh
-$ goapp deploy -application apple-secure-proxy -version 1
+$ goapp deploy -application YOUR_PROJECT_ID -version 1
 ```
