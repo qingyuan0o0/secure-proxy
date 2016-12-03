@@ -1,0 +1,20 @@
+runtime: go
+api_version: go1
+
+threadsafe: true
+automatic_scaling:
+  min_idle_instances: automatic
+  max_idle_instances: 1
+  min_pending_latency: 3000ms
+  max_pending_latency: automatic
+
+nobuild_files:
+- vendor
+
+skip_files:
+- vendor/.*$
+
+handlers:
+
+- url: /.*
+  script: _go_app
