@@ -30,19 +30,13 @@ or
 $ cp env.sh .envrc
 ```
 
-## Format
-
-```sh
-$ gofmt -d -w ./lib
-```
-
-## Run
+## Development
 
 ```sh
 $ goapp serve
 ```
 
-## Deploy
+## Deployment
 
 ```sh
 $ goapp deploy -application apple-secure-proxy -version 1
